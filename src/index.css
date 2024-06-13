@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./assets/bg-beige.jpg);
+  background-repeat: repeat;
+  background-size: 100% 100%, 30% 30%, 100% 100%;
+}
+
+
+/* Photo by <a href="https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Annie Spratt</a> on <a href="https://unsplash.com/photos/white-textile-with-black-line-xz485Eku8O4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+  
