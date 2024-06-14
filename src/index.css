@@ -10,7 +10,7 @@
   --green: hsl(117, 15%, 26%);
   --gray: hsl(36, 6%, 32%);
 
-  --fs-body: 1.125rem;
+  --fs-body: 1.5rem;
   --container: 75rem;
 }
 
@@ -25,17 +25,22 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+p {
+  font-size: 1.5rem;
+}
+
 body {
   background-image: url(./assets/bg-beige-resized.jpg);
   background-repeat: repeat;
   height: 500px;
+  /* have to give a height */
   background-size: cover;
   
   font-size: var(--fs-body);
 }
 
 .wrapper {
-  width: calc(100%-2rem);
+  width: calc(100% - 4rem);
   max-width: var(--container);
   margin-inline: auto; 
   /* left and right margins set to auto */

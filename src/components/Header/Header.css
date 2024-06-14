@@ -4,6 +4,7 @@
     justify-content: space-between;
     margin-inline: 50px;
     margin-top: 30px;
+    font-size: 1.2rem;
 }
 
 .logo {
@@ -17,6 +18,10 @@
 .nav-menu-icon {
     display: initial;
     margin-left: auto;
+}
+
+.nav-menu-icon:hover {
+    cursor: pointer;
 }
 
 li {
