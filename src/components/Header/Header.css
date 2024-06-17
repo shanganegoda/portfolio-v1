@@ -33,6 +33,7 @@ li {
 li:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
+    color: var(--green);
     cursor: pointer;
     font-weight: 600;
 }
